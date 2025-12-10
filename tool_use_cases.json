@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01",
+  "useCases": [
+    {
+      "id": "menu_planning_everyday",
+      "title": "Меню и рецепты с AI",
+      "domain": "everyday",
+      "description": "Подбор меню на неделю, рецептов из того, что есть дома, и списков покупок под бюджет и диету.",
+      "scenarioId": "recipes_everyday",
+      "tags": ["menu", "recipes", "family", "budget"]
+    },
+    {
+      "id": "learning_with_ai_tutor",
+      "title": "Учёба с AI‑тьютором",
+      "domain": "learning",
+      "description": "Пошаговое объяснение тем, Сократические диалоги, подбор материалов и разбор задач.",
+      "scenarioId": "study_helper",
+      "tags": ["tutor", "learning", "dialog", "plan"]
+    },
+    {
+      "id": "exam_prep_ai",
+      "title": "Подготовка к экзамену с AI",
+      "domain": "learning",
+      "description": "Разбор билетов, генерация вопросов, пробные мини‑экзамены и план последней недели.",
+      "scenarioId": "study_helper",
+      "tags": ["exam", "questions", "tickets", "test"]
+    },
+    {
+      "id": "notes_flashcards_ai",
+      "title": "Конспекты и флеш‑карты",
+      "domain": "learning",
+      "description": "Сжатие лекций, выделение ключевых тезисов и создание cloze‑карточек для интервальных повторений.",
+      "scenarioId": "study_helper",
+      "tags": ["notes", "flashcards", "cloze", "spaced_repetition"]
+    },
+    {
+      "id": "ai_freelance_client_work",
+      "title": "AI‑фриланс и работа с клиентами",
+      "domain": "work",
+      "description": "Подготовка откликов, брифов, черновиков работ и кейсов под фриланс и консалтинг.",
+      "scenarioId": "study_helper",
+      "tags": ["freelance", "client_work", "briefs", "portfolio"]
+    },
+    {
+      "id": "product_analytics_llm_helper",
+      "title": "Продуктовая аналитика с LLM",
+      "domain": "work",
+      "description": "Разбор метрик, когорт, воронок и A/B‑результатов с помощью AI‑ассистента.",
+      "scenarioId": "research_assistant",
+      "tags": ["analytics", "metrics", "cohorts", "ab_testing"]
+    }
+  ]
+}

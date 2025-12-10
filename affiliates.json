@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01",
+  "affiliates": [
+    {
+      "toolId": "genspark_web",
+      "url": "https://genspark.ai?via=aiassistant643",
+      "disclosureText": "Партнёрская ссылка: если ты оформляешь платную подписку в Genspark через эту ссылку, часть суммы поддержит разработку этого приложения. Для тебя цена не меняется."
+    }
+  ]
+}

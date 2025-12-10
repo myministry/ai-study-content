@@ -1,0 +1,954 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01",
+  "tools": [
+    {
+      "id": "chatgpt_web",
+      "name": "ChatGPT (web)",
+      "category": "chat",
+      "siteUrl": "https://chat.openai.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en", "ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "homemaker",
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher",
+        "other"
+      ],
+      "bestForDomains": [
+        "everyday",
+        "learning",
+        "work",
+        "business",
+        "creative",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 9,
+        "learning_with_ai_tutor": 9,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 8,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "claude_web",
+      "name": "Claude (web)",
+      "category": "chat",
+      "siteUrl": "https://claude.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "creative",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 7,
+        "learning_with_ai_tutor": 9,
+        "exam_prep_ai": 9,
+        "notes_flashcards_ai": 8,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["claude_style"]
+    },
+    {
+      "id": "perplexity_web",
+      "name": "Perplexity (web)",
+      "category": "chat",
+      "siteUrl": "https://www.perplexity.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 9,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 9
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "genspark_web",
+      "name": "Genspark",
+      "category": "chat",
+      "siteUrl": "https://genspark.ai",
+      "hasAffiliate": true,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "creative",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 6,
+        "learning_with_ai_tutor": 8,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 8,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "yandexgpt_web",
+      "name": "YandexGPT (Яндекс)",
+      "category": "chat",
+      "siteUrl": "https://ya.ru/ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "homemaker",
+        "student",
+        "professional",
+        "other"
+      ],
+      "bestForDomains": [
+        "everyday",
+        "learning",
+        "work",
+        "business",
+        "creative"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 9,
+        "learning_with_ai_tutor": 8,
+        "exam_prep_ai": 7,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 7,
+        "product_analytics_llm_helper": 6
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "gigachat_web",
+      "name": "GigaChat (Сбер)",
+      "category": "chat",
+      "siteUrl": "https://gigachat.ru",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "homemaker",
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher",
+        "other"
+      ],
+      "bestForDomains": [
+        "everyday",
+        "learning",
+        "work",
+        "business",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 8,
+        "learning_with_ai_tutor": 8,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "mistral_chat",
+      "name": "Mistral Chat",
+      "category": "chat",
+      "siteUrl": "https://chat.mistral.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en", "fr"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 6,
+        "learning_with_ai_tutor": 8,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "midjourney_discord",
+      "name": "Midjourney",
+      "category": "image",
+      "siteUrl": "https://www.midjourney.com",
+      "hasAffiliate": false,
+      "pricing": ["subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "entrepreneur",
+        "developer",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 4
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "dalle3_chatgpt",
+      "name": "DALL·E 3 в ChatGPT",
+      "category": "image",
+      "siteUrl": "https://chat.openai.com",
+      "hasAffiliate": false,
+      "pricing": ["subscription"],
+      "languages": ["en", "ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business",
+        "learning"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 6,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 7,
+        "product_analytics_llm_helper": 4
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "ideogram_ai",
+      "name": "Ideogram",
+      "category": "image",
+      "siteUrl": "https://ideogram.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 7,
+        "product_analytics_llm_helper": 4
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "leonardo_ai",
+      "name": "Leonardo AI",
+      "category": "image",
+      "siteUrl": "https://leonardo.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business",
+        "learning"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 7,
+        "product_analytics_llm_helper": 4
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "kandinsky_sber",
+      "name": "Кандинский",
+      "category": "image",
+      "siteUrl": "https://fusionbrain.ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "homemaker",
+        "student",
+        "professional",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "everyday",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 6,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 6,
+        "product_analytics_llm_helper": 3
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "runway_ml",
+      "name": "Runway",
+      "category": "video",
+      "siteUrl": "https://runwayml.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business",
+        "work"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 4,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 4
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "pika_labs",
+      "name": "Pika Labs",
+      "category": "video",
+      "siteUrl": "https://pika.art",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "creative",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 4,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 3
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "category": "video",
+      "siteUrl": "https://www.heygen.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "other"
+      ],
+      "bestForDomains": [
+        "business",
+        "work",
+        "creative"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 3,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 3
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "github_copilot",
+      "name": "GitHub Copilot",
+      "category": "code",
+      "siteUrl": "https://github.com/features/copilot",
+      "hasAffiliate": false,
+      "pricing": ["subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "developer",
+        "professional"
+      ],
+      "bestForDomains": [
+        "tech",
+        "work"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 2,
+        "learning_with_ai_tutor": 6,
+        "exam_prep_ai": 5,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 9,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "cursor_ide",
+      "name": "Cursor IDE",
+      "category": "code",
+      "siteUrl": "https://www.cursor.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "developer"
+      ],
+      "bestForDomains": [
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 1,
+        "learning_with_ai_tutor": 6,
+        "exam_prep_ai": 5,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 9,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "replit_ghostwriter",
+      "name": "Replit Ghostwriter",
+      "category": "code",
+      "siteUrl": "https://replit.com/ai",
+      "hasAffiliate": false,
+      "pricing": ["subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "developer"
+      ],
+      "bestForDomains": [
+        "learning",
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 1,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 6,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "category": "code",
+      "siteUrl": "https://codeium.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "developer",
+        "professional"
+      ],
+      "bestForDomains": [
+        "tech",
+        "work"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 1,
+        "learning_with_ai_tutor": 6,
+        "exam_prep_ai": 5,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "notion_ai",
+      "name": "Notion AI",
+      "category": "office",
+      "siteUrl": "https://www.notion.so/product/ai",
+      "hasAffiliate": false,
+      "pricing": ["subscription", "addon"],
+      "languages": ["en", "ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "creative",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 6,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 7,
+        "notes_flashcards_ai": 9,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "microsoft_copilot_365",
+      "name": "Microsoft Copilot for 365",
+      "category": "office",
+      "siteUrl": "https://www.microsoft.com/copilot",
+      "hasAffiliate": false,
+      "pricing": ["subscription"],
+      "languages": ["en", "ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer"
+      ],
+      "bestForDomains": [
+        "work",
+        "business",
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 4,
+        "learning_with_ai_tutor": 6,
+        "exam_prep_ai": 6,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 9,
+        "product_analytics_llm_helper": 9
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "google_gemini_workspace",
+      "name": "Gemini for Google Workspace",
+      "category": "office",
+      "siteUrl": "https://workspace.google.com",
+      "hasAffiliate": false,
+      "pricing": ["subscription", "addon"],
+      "languages": ["en", "ru"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "work",
+        "business",
+        "tech",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 7,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gemini_style"]
+    },
+    {
+      "id": "clickup_ai",
+      "name": "ClickUp AI",
+      "category": "office",
+      "siteUrl": "https://clickup.com/ai",
+      "hasAffiliate": false,
+      "pricing": ["subscription", "addon"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur"
+      ],
+      "bestForDomains": [
+        "work",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 4,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 5,
+        "notes_flashcards_ai": 6,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "zapier_ai",
+      "name": "Zapier AI",
+      "category": "automation",
+      "siteUrl": "https://zapier.com/ai",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer"
+      ],
+      "bestForDomains": [
+        "work",
+        "business",
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 5,
+        "ai_freelance_client_work": 9,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "make_com",
+      "name": "Make (ex‑Integromat)",
+      "category": "automation",
+      "siteUrl": "https://www.make.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer"
+      ],
+      "bestForDomains": [
+        "work",
+        "business",
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 4,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "n8n_cloud",
+      "name": "n8n Cloud",
+      "category": "automation",
+      "siteUrl": "https://n8n.io",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "developer",
+        "professional"
+      ],
+      "bestForDomains": [
+        "tech",
+        "work",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 3,
+        "learning_with_ai_tutor": 4,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 4,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "airtable_ai",
+      "name": "Airtable AI",
+      "category": "automation",
+      "siteUrl": "https://airtable.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "professional",
+        "manager",
+        "entrepreneur",
+        "developer"
+      ],
+      "bestForDomains": [
+        "work",
+        "business",
+        "tech"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 5,
+        "learning_with_ai_tutor": 5,
+        "exam_prep_ai": 4,
+        "notes_flashcards_ai": 6,
+        "ai_freelance_client_work": 8,
+        "product_analytics_llm_helper": 8
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+
+    {
+      "id": "elicit_org",
+      "name": "Elicit",
+      "category": "research",
+      "siteUrl": "https://elicit.org",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 2,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 6,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "scite_assistant",
+      "name": "Scite Assistant",
+      "category": "research",
+      "siteUrl": "https://scite.ai/assistant",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 2,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 5,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "connected_papers",
+      "name": "Connected Papers",
+      "category": "research",
+      "siteUrl": "https://www.connectedpapers.com",
+      "hasAffiliate": false,
+      "pricing": ["freemium"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "research"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 1,
+        "learning_with_ai_tutor": 6,
+        "exam_prep_ai": 7,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 4,
+        "product_analytics_llm_helper": 6
+      },
+      "promptDialects": ["gpt4_style"]
+    },
+    {
+      "id": "consensus_search",
+      "name": "Consensus",
+      "category": "research",
+      "siteUrl": "https://consensus.app",
+      "hasAffiliate": false,
+      "pricing": ["freemium", "subscription"],
+      "languages": ["en"],
+      "privacyLevel": "standard",
+      "bestForPersonas": [
+        "student",
+        "professional",
+        "researcher"
+      ],
+      "bestForDomains": [
+        "learning",
+        "research",
+        "business"
+      ],
+      "qualityByUseCase": {
+        "menu_planning_everyday": 2,
+        "learning_with_ai_tutor": 7,
+        "exam_prep_ai": 8,
+        "notes_flashcards_ai": 7,
+        "ai_freelance_client_work": 6,
+        "product_analytics_llm_helper": 7
+      },
+      "promptDialects": ["gpt4_style"]
+    }
+  ]
+}

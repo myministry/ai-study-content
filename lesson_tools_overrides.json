@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01",
+  "overrides": [
+    {
+      "lessonId": "everyday_menu_week_1_l1",
+      "courseId": "everyday_menu_week_1",
+      "toolIds": ["yandexgpt_web", "gigachat_web", "chatgpt_web", "notion_ai"]
+    },
+    {
+      "lessonId": "everyday_menu_week_1_l2",
+      "courseId": "everyday_menu_week_1",
+      "toolIds": ["yandexgpt_web", "gigachat_web", "chatgpt_web"]
+    },
+    {
+      "lessonId": "everyday_menu_week_1_l3",
+      "courseId": "everyday_menu_week_1",
+      "toolIds": ["yandexgpt_web", "gigachat_web", "chatgpt_web", "notion_ai"]
+    },
+    {
+      "lessonId": "everyday_menu_week_1_l4",
+      "courseId": "everyday_menu_week_1",
+      "toolIds": ["yandexgpt_web", "gigachat_web", "chatgpt_web"]
+    },
+    {
+      "lessonId": "everyday_menu_week_1_l5",
+      "courseId": "everyday_menu_week_1",
+      "toolIds": ["yandexgpt_web", "gigachat_web", "chatgpt_web", "notion_ai"]
+    },
+
+    {
+      "lessonId": "learning_ai_tutor_1_l1",
+      "courseId": "learning_ai_tutor_1",
+      "toolIds": ["genspark_web", "chatgpt_web", "claude_web", "gigachat_web"]
+    },
+    {
+      "lessonId": "learning_ai_tutor_1_l2",
+      "courseId": "learning_ai_tutor_1",
+      "toolIds": ["genspark_web", "chatgpt_web", "claude_web"]
+    },
+    {
+      "lessonId": "learning_ai_tutor_1_l3",
+      "courseId": "learning_ai_tutor_1",
+      "toolIds": ["genspark_web", "chatgpt_web"]
+    },
+    {
+      "lessonId": "learning_ai_tutor_1_l4",
+      "courseId": "learning_ai_tutor_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "notion_ai"]
+    },
+    {
+      "lessonId": "learning_ai_tutor_1_l5",
+      "courseId": "learning_ai_tutor_1",
+      "toolIds": ["chatgpt_web", "genspark_web", "notion_ai"]
+    },
+
+    {
+      "lessonId": "work_ai_freelance_1_l1",
+      "courseId": "work_ai_freelance_1",
+      "toolIds": ["genspark_web", "chatgpt_web", "perplexity_web"]
+    },
+    {
+      "lessonId": "work_ai_freelance_1_l2",
+      "courseId": "work_ai_freelance_1",
+      "toolIds": ["genspark_web", "chatgpt_web", "notion_ai", "perplexity_web"]
+    },
+    {
+      "lessonId": "work_ai_freelance_1_l3",
+      "courseId": "work_ai_freelance_1",
+      "toolIds": ["chatgpt_web", "genspark_web", "microsoft_copilot_365", "google_gemini_workspace"]
+    },
+    {
+      "lessonId": "work_ai_freelance_1_l4",
+      "courseId": "work_ai_freelance_1",
+      "toolIds": ["chatgpt_web", "genspark_web"]
+    },
+
+    {
+      "lessonId": "work_product_analytics_ai_1_l1",
+      "courseId": "work_product_analytics_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "gigachat_web", "elicit_org"]
+    },
+    {
+      "lessonId": "work_product_analytics_ai_1_l2",
+      "courseId": "work_product_analytics_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "notion_ai", "airtable_ai"]
+    },
+    {
+      "lessonId": "work_product_analytics_ai_1_l3",
+      "courseId": "work_product_analytics_ai_1",
+      "toolIds": ["chatgpt_web", "github_copilot", "cursor_ide"]
+    },
+    {
+      "lessonId": "work_product_analytics_ai_1_l4",
+      "courseId": "work_product_analytics_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "microsoft_copilot_365", "google_gemini_workspace"]
+    }
+  ]
+}
