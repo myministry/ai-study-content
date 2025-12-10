@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2025-01-10",
   "flows": [
     {
@@ -348,6 +348,194 @@
           "exportType": "shareSheet"
         }
       ]
+    },
+    {
+  "id": "ab_hypotheses_matrix",
+  "title": "Матрица A/B‑гипотез",
+  "scenarioId": "study_helper",
+  "domain": "business",
+  "estimatedMinutes": 15,
+  "steps": [
+    {
+      "id": "collect_context",
+      "kind": "collect",
+      "title": "О продукте и цели",
+      "description": "Опиши коротко продукт, главную цель и участок воронки, где хочешь улучшения.",
+      "fields": [
+        {
+          "id": "product",
+          "label": "Что за продукт или сервис",
+          "placeholder": "Например: онлайн‑курс по английскому, мобильное приложение, SaaS‑сервис…",
+          "type": "longText",
+          "isRequired": true
+        },
+        {
+          "id": "goal_metric",
+          "label": "Главная метрика",
+          "placeholder": "Например: регистрация, активация, покупка, повторная покупка…",
+          "type": "shortText",
+          "isRequired": true
+        },
+        {
+          "id": "funnel_stage",
+          "label": "Участок воронки",
+          "placeholder": "Например: лендинг, первый экран приложения, онбординг, корзина…",
+          "type": "shortText",
+          "isRequired": false
+        },
+        {
+          "id": "constraints",
+          "label": "Ограничения и особенности",
+          "placeholder": "Например: нет разработчика, нельзя трогать цены, есть трафик только из рекламы…",
+          "type": "longText",
+          "isRequired": false
+        }
+      ],
+      "promptTemplate": null,
+      "rubric": null,
+      "exportType": null
+    },
+    {
+      "id": "ai_generate_hypotheses",
+      "kind": "aiGenerate",
+      "title": "Черновик гипотез",
+      "description": "Сгенерируем 10–15 гипотез для A/B‑экспериментов с оценкой влияния и сложности.",
+      "fields": null,
+      "promptTemplate": "Ты — продуктовый аналитик и UX‑исследователь.\n\nПродукт:\n{{product}}\n\nГлавная метрика: {{goal_metric}}\nУчасток воронки: {{funnel_stage}}\nОграничения и особенности: {{constraints}}\n\nСгенерируй 10–15 гипотез для A/B‑экспериментов.\nОформи в виде таблицы (текстом):\n- Идея (что меняем)\n- Зона воронки\n- Ожидаемый эффект на метрику (коротко)\n- Impact: низкий/средний/высокий\n- Effort: низкий/средний/высокий\n- Риск: низкий/средний/высокий",
+      "rubric": null,
+      "exportType": null
+    },
+    {
+      "id": "review_prioritization",
+      "kind": "reviewRubric",
+      "title": "Приоритизация гипотез",
+      "description": "Попросим AI выбрать 3–5 самых разумных гипотез по соотношению Impact/Effort/риск.",
+      "fields": null,
+      "promptTemplate": "Вот список гипотез для A/B‑тестов:\n---\n{{previous_result}}\n---\n\nОтбери 3–5 гипотез, которые лучше всего подходят для старта (быстрый тест с заметным эффектом и умеренными рисками).\nДля каждой выбранной гипотезы укажи:\n- Почему именно она\n- Какую метрику будем смотреть\n- Какой ожидаем знак изменения (рост/снижение)\n\nВ конце сделай короткое резюме: с чего начать первым и почему.",
+      "rubric": [
+        {
+          "id": "impact",
+          "title": "Потенциальный эффект",
+          "description": "Гипотеза может заметно повлиять на выбранную метрику."
+        },
+        {
+          "id": "effort",
+          "title": "Сложность реализации",
+          "description": "Гипотезу реально протестировать в разумные сроки."
+        },
+        {
+          "id": "risk",
+          "title": "Риски",
+          "description": "Нет критичных рисков для бренда, денег и пользователей."
+        }
+      ],
+      "exportType": null
+    },
+    {
+      "id": "export_matrix",
+      "kind": "export",
+      "title": "Сохранить матрицу гипотез",
+      "description": "Скопируй итоговую матрицу и приоритизацию, чтобы использовать её в планировании экспериментов.",
+      "fields": null,
+      "promptTemplate": null,
+      "rubric": null,
+      "exportType": "copyText"
     }
+  ]
+},
+    {
+  "id": "feature_decomposition_plan",
+  "title": "Декомпозиция фичи",
+  "scenarioId": "study_helper",
+  "domain": "tech",
+  "estimatedMinutes": 15,
+  "steps": [
+    {
+      "id": "collect_feature",
+      "kind": "collect",
+      "title": "Что за фича и для кого",
+      "description": "Опиши, какую фичу хочешь реализовать и для какой аудитории.",
+      "fields": [
+        {
+          "id": "feature",
+          "label": "Описание фичи",
+          "placeholder": "Например: экран рекомендаций, новый отчёт, push‑уведомления…",
+          "type": "longText",
+          "isRequired": true
+        },
+        {
+          "id": "user_segment",
+          "label": "Кто будет пользоваться",
+          "placeholder": "Например: новые пользователи, платящие, администраторы…",
+          "type": "shortText",
+          "isRequired": false
+        },
+        {
+          "id": "stack",
+          "label": "Платформа и стек",
+          "placeholder": "Например: iOS, Android, веб, backend на Node/Go, база данных…",
+          "type": "longText",
+          "isRequired": false
+        },
+        {
+          "id": "constraints",
+          "label": "Ограничения",
+          "placeholder": "Например: сроки, нет дизайнера, нельзя менять API, важна обратная совместимость…",
+          "type": "longText",
+          "isRequired": false
+        }
+      ],
+      "promptTemplate": null,
+      "rubric": null,
+      "exportType": null
+    },
+    {
+      "id": "ai_decompose_feature",
+      "kind": "aiGenerate",
+      "title": "Черновик плана задач",
+      "description": "Попросим AI разложить фичу на задачи с пометкой, что можно отдать ассистенту.",
+      "fields": null,
+      "promptTemplate": "Ты — тимлид разработки.\n\nФича:\n{{feature}}\n\nАудитория: {{user_segment}}\nСтек и платформа: {{stack}}\nОграничения: {{constraints}}\n\nРазложи фичу на список задач. Оформи как список пунктов:\n- Задача\n- Кто основно отвечает: разработчик / аналитик / дизайнер / продакт\n- Что можно делегировать AI (например: подготовка черновиков текстов, генерация тест‑кейсов, рефакторинг и т.п.)\n- Оценка сложности: S/M/L (очень грубо)\n\nВ конце предложи 3–5 задач, с которых логично начать.",
+      "rubric": null,
+      "exportType": null
+    },
+    {
+      "id": "review_completeness",
+      "kind": "reviewRubric",
+      "title": "Проверка полноты и рисков",
+      "description": "Попросим AI проверить, хватает ли задач и видны ли основные риски.",
+      "fields": null,
+      "promptTemplate": "Вот план задач по фиче:\n---\n{{previous_result}}\n---\n\nПроверь план по критериям:\n1) Нет ли очевидных пропусков (например, миграции, мониторинг, фиче‑флаги).\n2) Продуманы ли проверки и тесты.\n3) Отмечены ли основные риски.\n\nЕсли видишь пропуски, предложи, какие пункты добавить в план (с краткими формулировками). В конце сделай короткий список рисков, за которыми надо следить.",
+      "rubric": [
+        {
+          "id": "completeness",
+          "title": "Полнота",
+          "description": "В плане есть ключевые шаги: реализация, тесты, выкладка, мониторинг."
+        },
+        {
+          "id": "testing",
+          "title": "Проверки и тесты",
+          "description": "Понимаем, как будем проверять, что фича работает."
+        },
+        {
+          "id": "risks",
+          "title": "Риски",
+          "description": "Выделены основные риски и точки внимания."
+        }
+      ],
+      "exportType": null
+    },
+    {
+      "id": "export_plan",
+      "kind": "export",
+      "title": "Сохранить план",
+      "description": "Скопируй план задач, чтобы перенести его в трекер или чеклист.",
+      "fields": null,
+      "promptTemplate": null,
+      "rubric": null,
+      "exportType": "copyText"
+    }
+  ]
+}
   ]
 }
