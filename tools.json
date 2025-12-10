@@ -36,7 +36,11 @@
         "exam_prep_ai": 8,
         "notes_flashcards_ai": 8,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8.
+        "pitchdeck_ai": 9,          // НОВОЕ
+        "ab_hypotheses_ai": 8,      // НОВОЕ
+        "office_automation_ai": 7,  // НОВОЕ
+        "pair_programming_ai": 7    // НОВОЕ
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -71,7 +75,11 @@
         "exam_prep_ai": 9,
         "notes_flashcards_ai": 8,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 9,          // НОВОЕ
+        "ab_hypotheses_ai": 9,      // НОВОЕ
+        "office_automation_ai": 7,  // НОВОЕ
+        "pair_programming_ai": 7 
       },
       "promptDialects": ["claude_style"]
     },
@@ -105,7 +113,11 @@
         "exam_prep_ai": 9,
         "notes_flashcards_ai": 7,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 9
+        "product_analytics_llm_helper": 9,
+        "pitchdeck_ai": 9,          // НОВОЕ
+        "ab_hypotheses_ai": 9,      // НОВОЕ
+        "office_automation_ai": 6,  // НОВОЕ
+        "pair_programming_ai": 6 
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -507,7 +519,11 @@
         "exam_prep_ai": 5,
         "notes_flashcards_ai": 5,
         "ai_freelance_client_work": 9,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 5,            // НОВОЕ
+        "ab_hypotheses_ai": 5,        // НОВОЕ
+        "office_automation_ai": 4,    // НОВОЕ
+        "pair_programming_ai": 10 
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -532,7 +548,11 @@
         "exam_prep_ai": 5,
         "notes_flashcards_ai": 5,
         "ai_freelance_client_work": 9,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 4,            // НОВОЕ
+        "ab_hypotheses_ai": 4,        // НОВОЕ
+        "office_automation_ai": 3,    // НОВОЕ
+        "pair_programming_ai": 10
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -622,7 +642,11 @@
         "exam_prep_ai": 7,
         "notes_flashcards_ai": 9,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 7
+        "product_analytics_llm_helper": 7,
+        "pitchdeck_ai": 8,          // НОВОЕ
+        "ab_hypotheses_ai": 8,      // НОВОЕ
+        "office_automation_ai": 9,  // НОВОЕ
+        "pair_programming_ai": 5  
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -714,7 +738,11 @@
         "exam_prep_ai": 5,
         "notes_flashcards_ai": 6,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 7
+        "product_analytics_llm_helper": 7,
+        "pitchdeck_ai": 7,          // НОВОЕ
+        "ab_hypotheses_ai": 8,      // НОВОЕ
+        "office_automation_ai": 9,  // НОВОЕ
+        "pair_programming_ai": 3  
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -745,7 +773,11 @@
         "exam_prep_ai": 4,
         "notes_flashcards_ai": 5,
         "ai_freelance_client_work": 9,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 6,            // НОВОЕ
+        "ab_hypotheses_ai": 6,        // НОВОЕ
+        "office_automation_ai": 9,    // НОВОЕ
+        "pair_programming_ai": 3
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -775,7 +807,11 @@
         "exam_prep_ai": 4,
         "notes_flashcards_ai": 4,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 6,          // ресёрч/отчёты подтягивать из CRM/таблиц
+        "ab_hypotheses_ai": 6,      // прокидывать метрики/результаты A/B в дашборды
+        "office_automation_ai": 9,  // профильный кейс: почта/таблицы/календарь/CRM
+        "pair_programming_ai": 3 
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -803,7 +839,11 @@
         "exam_prep_ai": 4,
         "notes_flashcards_ai": 4,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 5,          // интеграции отчётности/CRM под питч
+        "ab_hypotheses_ai": 6,      // прокидывание результатов экспериментов
+        "office_automation_ai": 9,  // сильный кейс: кастомные воркфлоу в офисе
+        "pair_programming_ai": 4 
       },
       "promptDialects": ["gpt4_style"]
     },
@@ -833,7 +873,11 @@
         "exam_prep_ai": 4,
         "notes_flashcards_ai": 6,
         "ai_freelance_client_work": 8,
-        "product_analytics_llm_helper": 8
+        "product_analytics_llm_helper": 8,
+        "pitchdeck_ai": 7,          // НОВОЕ
+        "ab_hypotheses_ai": 8,      // НОВОЕ
+        "office_automation_ai": 9,  // НОВОЕ
+        "pair_programming_ai": 3 
       },
       "promptDialects": ["gpt4_style"]
     },
