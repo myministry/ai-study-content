@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-01",
+  "features": {
+    "freeDailyChatLimit": 40,
+    "proDailyChatLimit": 200,
+    "hasProSprint": true,
+    "hasProFlows": true
+  }
+}
