@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "updatedAt": "2025-01-10",
+  "flows": [
+    {
+      "id": "flow_menu_week_1",
+      "title": "Меню на 7 дней",
+      "scenarioId": "recipes_everyday",
+      "domain": "everyday",
+      "estimatedMinutes": 15,
+      "steps": [
+        {
+          "id": "collect_brief",
+          "kind": "collect",
+          "title": "Собираем вводные",
+          "description": "Опиши ограничения по питанию, бюджет и запасы.",
+          "fields": [
+            {
+              "id": "household",
+              "label": "Кто будет есть (кол-во и возраст)",
+              "placeholder": "2 взрослых и ребёнок 5 лет",
+              "type": "shortText",
+              "isRequired": true
+            },
+            {
+              "id": "diet",
+              "label": "Ограничения и предпочтения",
+              "placeholder": "Без глютена, мало сахара…",
+              "type": "longText",
+              "isRequired": false
+            }
+          ],
+          "promptTemplate": null,
+          "rubric": null,
+          "exportType": null
+        },
+        {
+          "id": "ai_generate_menu",
+          "kind": "aiGenerate",
+          "title": "Черновик меню",
+          "description": "Сгенерируем план питания на неделю.",
+          "fields": null,
+          "promptTemplate": "Ты — диетолог и планировщик меню.\nДомохозяйство: {{household}}\nОграничения: {{diet}}\nСоставь меню на 7 дней (завтрак/обед/ужин) в виде таблицы.",
+          "rubric": null,
+          "exportType": null
+        },
+        {
+          "id": "review_menu",
+          "kind": "reviewRubric",
+          "title": "Проверка меню",
+          "description": "Проверим, насколько меню соответствует вводным.",
+          "fields": null,
+          "promptTemplate": "Вот меню пользователя:\n---\n{{previous_result}}\n---\nОцени по критериям, дай короткий фидбек и 1–2 правки.",
+          "rubric": [
+            {
+              "id": "fit_constraints",
+              "title": "Учёт ограничений",
+              "description": "Учитывает ли меню диету, аллергию, бюджет?"
+            },
+            {
+              "id": "variety",
+              "title": "Разнообразие",
+              "description": "Достаточно ли разнообразны блюда?"
+            }
+          ],
+          "exportType": null
+        },
+        {
+          "id": "export",
+          "kind": "export",
+          "title": "Экспорт меню",
+          "description": "Скопируй или сохрани меню туда, где им удобно пользоваться.",
+          "fields": null,
+          "promptTemplate": null,
+          "rubric": null,
+          "exportType": "copyText"
+        }
+      ]
+    }
+  ]
+}
