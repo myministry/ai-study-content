@@ -2,6 +2,104 @@
   "version": 1,
   "updatedAt": "2025-01-01",
   "overrides": [
+        {
+      "lessonId": "business_pitchdeck_research_ai_1_l1",
+      "courseId": "business_pitchdeck_research_ai_1",
+      "toolIds": ["perplexity_web", "elicit_org", "consensus_search", "chatgpt_web"]
+    },
+    {
+      "lessonId": "business_pitchdeck_research_ai_1_l2",
+      "courseId": "business_pitchdeck_research_ai_1",
+      "toolIds": ["chatgpt_web", "claude_web", "microsoft_copilot_365", "google_gemini_workspace"]
+    },
+    {
+      "lessonId": "business_pitchdeck_research_ai_1_l3",
+      "courseId": "business_pitchdeck_research_ai_1",
+      "toolIds": ["chatgpt_web", "claude_web", "genspark_web", "notion_ai"]
+    },
+    {
+      "lessonId": "business_pitchdeck_research_ai_1_l4",
+      "courseId": "business_pitchdeck_research_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "notion_ai", "airtable_ai"]
+    },
+    {
+      "lessonId": "business_pitchdeck_research_ai_1_l5",
+      "courseId": "business_pitchdeck_research_ai_1",
+      "toolIds": ["chatgpt_web", "claude_web", "perplexity_web"]
+    },
+
+    {
+      "lessonId": "business_ab_hypotheses_ai_1_l1",
+      "courseId": "business_ab_hypotheses_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "notion_ai", "airtable_ai"]
+    },
+    {
+      "lessonId": "business_ab_hypotheses_ai_1_l2",
+      "courseId": "business_ab_hypotheses_ai_1",
+      "toolIds": ["notion_ai", "airtable_ai", "clickup_ai", "chatgpt_web"]
+    },
+    {
+      "lessonId": "business_ab_hypotheses_ai_1_l3",
+      "courseId": "business_ab_hypotheses_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "airtable_ai", "microsoft_copilot_365"]
+    },
+    {
+      "lessonId": "business_ab_hypotheses_ai_1_l4",
+      "courseId": "business_ab_hypotheses_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web", "notion_ai"]
+    },
+    {
+      "lessonId": "business_ab_hypotheses_ai_1_l5",
+      "courseId": "business_ab_hypotheses_ai_1",
+      "toolIds": ["chatgpt_web", "perplexity_web"]
+    },
+
+    {
+      "lessonId": "work_automation_agents_1_l1",
+      "courseId": "work_automation_agents_1",
+      "toolIds": ["notion_ai", "clickup_ai", "airtable_ai"]
+    },
+    {
+      "lessonId": "work_automation_agents_1_l2",
+      "courseId": "work_automation_agents_1",
+      "toolIds": ["chatgpt_web", "claude_web", "genspark_web"]
+    },
+    {
+      "lessonId": "work_automation_agents_1_l3",
+      "courseId": "work_automation_agents_1",
+      "toolIds": ["zapier_ai", "make_com", "n8n_cloud", "airtable_ai"]
+    },
+    {
+      "lessonId": "work_automation_agents_1_l4",
+      "courseId": "work_automation_agents_1",
+      "toolIds": ["notion_ai", "clickup_ai", "airtable_ai"]
+    },
+    {
+      "lessonId": "work_automation_agents_1_l5",
+      "courseId": "work_automation_agents_1",
+      "toolIds": ["chatgpt_web", "perplexity_web"]
+    },
+
+    {
+      "lessonId": "tech_ai_pair_programming_1_l1",
+      "courseId": "tech_ai_pair_programming_1",
+      "toolIds": ["chatgpt_web", "claude_web", "github_copilot", "cursor_ide"]
+    },
+    {
+      "lessonId": "tech_ai_pair_programming_1_l2",
+      "courseId": "tech_ai_pair_programming_1",
+      "toolIds": ["chatgpt_web", "claude_web", "cursor_ide", "notion_ai"]
+    },
+    {
+      "lessonId": "tech_ai_pair_programming_1_l3",
+      "courseId": "tech_ai_pair_programming_1",
+      "toolIds": ["github_copilot", "cursor_ide", "codeium"]
+    },
+    {
+      "lessonId": "tech_ai_pair_programming_1_l4",
+      "courseId": "tech_ai_pair_programming_1",
+      "toolIds": ["chatgpt_web", "claude_web", "github_copilot"]
+    },
     {
       "lessonId": "everyday_menu_week_1_l1",
       "courseId": "everyday_menu_week_1",
