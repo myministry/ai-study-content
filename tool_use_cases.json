@@ -2,6 +2,38 @@
   "version": 1,
   "updatedAt": "2025-01-01",
   "useCases": [
+        {
+      "id": "pitchdeck_ai",
+      "title": "Питч‑дек и ресёрч с AI",
+      "domain": "business",
+      "description": "Подготовка питч‑дека, быстрый ресёрч рынка и сегментов, формулировка ценностного предложения и unit‑экономики.",
+      "scenarioId": "research_assistant",
+      "tags": ["pitchdeck", "research", "market", "unit_economics"]
+    },
+    {
+      "id": "ab_hypotheses_ai",
+      "title": "Дизайн A/B‑гипотез с AI",
+      "domain": "business",
+      "description": "Генерация, приоритизация и оформление гипотез под A/B‑тесты: метрики, аудитория, дизайн экспериментов.",
+      "scenarioId": "research_assistant",
+      "tags": ["ab_test", "experiments", "hypotheses", "metrics"]
+    },
+    {
+      "id": "office_automation_ai",
+      "title": "Полуавтомат в офисе с AI",
+      "domain": "work",
+      "description": "Описания SOP, полуавтоматизация e‑mail/таблиц/календаря, связка AI с Zapier/Make/n8n.",
+      "scenarioId": null,
+      "tags": ["automation", "sop", "workflows", "zapier", "make"]
+    },
+    {
+      "id": "pair_programming_ai",
+      "title": "AI‑пэир‑программирование",
+      "domain": "tech",
+      "description": "Работа с AI как с напарником по коду: разбор задач, генерация и рефакторинг кода, подсказки по архитектуре.",
+      "scenarioId": null,
+      "tags": ["code", "pair_programming", "copilot", "ide"]
+    },
     {
       "id": "menu_planning_everyday",
       "title": "Меню и рецепты с AI",
